@@ -195,7 +195,6 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .codeRedemptionRedirect-1wVR4b,
 .cardWrapper-2Min21,
 .attendeeCTA-3ZZQWt,
-.membershipDialog-rVL-t_,
 .keybindGroup-JQs9x_:before,
 .activeGame-14JI7o,
 .addGamePopout-2RY8Ju,
@@ -337,7 +336,8 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .group-2dAfBy .item-3T2z1R,
 .group-1WdBVp .item-1yAxl1,
 .button-38aScr.lookBlank-3eh9lL,
-.button-1-5Aqk {
+.button-1-5Aqk,
+.upsellFooter-3coAfO {
 	background-color: rgb(var(--mainBGColor)) !important;
 }
 .childWrapper-anI2G9 {
@@ -776,6 +776,7 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .container-3LUQwT,
 .button-2CgfFz,
 .overflowRolesPopout-140n9i,
+.upsellFooter-3coAfO,
 .select-2fjwPw,
 .popout-VcNcHB,
 .group-1WdBVp,
