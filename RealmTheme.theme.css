@@ -40,7 +40,7 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 	left:0;
 	z-index:9998;
 	pointer-events:none;
-	-webkit-animation:cv-bg 6s ease-in-out;
+	-webkit-animation:cv-bg 3s ease-in-out;
 }
 
 @-webkit-keyframes cv-bg{0%{background-color:rgba(0,0,0,.5)}
@@ -62,21 +62,25 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 	opacity:0;
 	z-index:9999;
 	pointer-events:none;
-	-webkit-animation:cv-init 5s ease-in-out;
+	-webkit-animation:cv-init 3s ease-in-out;
 }
 
 @-webkit-keyframes cv-init {
-0% {
+	0% {
+		content: "";
+		opacity: 0;
+	  }
+20% {
 	content: "【Outlined " var(--version) "】";
 	opacity: 1;
   }
-30% {
-	content: "Added Changelog";
-	opacity:1;
-  }
-60% {
-	content: "Fixed Buttons";
-	opacity:1;
+80% {
+	content: "【Outlined " var(--version) "】";
+	opacity: 1;
+	}
+100% {
+	content: "【Outlined " var(--version) "】";
+	opacity: 0;
 	}
 }
 
