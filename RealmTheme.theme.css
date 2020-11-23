@@ -1,5 +1,5 @@
 :root {
-	--version: "2020.11.24_1";
+	--version: "2020.11.24_148";
 }
 
 @font-face {
@@ -94,6 +94,16 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
   top: 5px;
   font-family: "Discord";
   font-size: 13px;
+}
+.checkbox-3s5GYZ,
+path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5.375 21H18.625C19.936 21 21 19.936 21 18.625V5.375C21.0057 4.08803 19.9197 3 18.625 3ZM19 19V5H4.99999V19H19Z"] {
+  d: path("M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z") !important;
+}
+.colorDefault-2K3EoJ .check-1JyqgN {
+  d: path("M 12 17 C 15 17 17 15 17 12 C 17 9 15 7 12 7 C 9 7 7 9 7 12 C 7 15 9 17 12 17 Z M 12 22 Z") !important;
+  width: 4px !important;
+  height: 4px !important;
+  color: rgb(var(--mainAccentColor)) !important;
 }
 
 /* ---BACKGROUND--- */
@@ -337,7 +347,12 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .group-1WdBVp .item-1yAxl1,
 .button-38aScr.lookBlank-3eh9lL,
 .button-1-5Aqk,
-.upsellFooter-3coAfO {
+.upsellFooter-3coAfO,
+.headerPlaying-j0WQBV,
+.bot-2Fta1w,
+.headerSpotify-zpWxgT,
+.activityUserPopout-2yItg2,
+.invite-18yqGF {
 	background-color: rgb(var(--mainBGColor)) !important;
 }
 .childWrapper-anI2G9 {
@@ -362,11 +377,12 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .mediaBarProgress-1xaPtl:before,
 .mediaBarProgress-1xaPtl:after,
 .mediaBarGrabber-1FqnbN,
-.headerPlaying-j0WQBV,
 .overflowRolesPopoutArrow-2O66oH,
 .item-1yAxl1.selected-2YhbGh,
 .circleIconButton-jET_ig.selected-ugP_am,
-.questionMark-3qBhGj {
+.questionMark-3qBhGj,
+.membershipDialog-rVL-t_,
+.barInner-3NDaY_ {
   background-color: rgb(var(--mainAccentColor)) !important;
 }
 .unread-2lAfLh {
@@ -416,7 +432,6 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .container-3baos1 svg:hover,
 .wrapper-2aW0bm svg:hover,
 .title-3qD0b- svg:hover,
-.checkbox-3s5GYZ,
 .toolbar-2bjZV7 svg:hover,
 .channelTextArea-rNsIhG svg:hover,
 .usernameSpeaking-RmltQx,
@@ -434,14 +449,25 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .selectedIcon-3uS11H,
 .selectorButtonSelected-t5V9On .selectorTextSelected-1ymya_,
 .selectorButton-EEUWed:hover .colorStandard-2KCXvj,
-.item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
+.item-PXvHYJ[style*="color: rgb(114, 137, 218);"],
+.colorBrand-ROmMP1,
+.headerTagNoNickname-ENx6no span,
+.headerTagUsernameNoNickname-2_H881,
+.botTagVerified-1klIIt,
+.activityUserPopout-2yItg2 .headerText-1HLrL7,
+.activityUserPopout-2yItg2 .body-ZAhrcj,
+.headerName-fajvi9,
+.headerTagWithNickname-3IthZD,
+.customStatus-1bh2V9,
+.bodyNormal-2D39hT .textRow-19NEd_,
+.gameName-1RiWHm,
+.lastPlayed-3bQ7Bo,
+.overlayStatusText-L2IACa,
+.subtext-13Lvrj {
   color: rgb(var(--mainAccentColor)) !important;
 }
 .closeButton-1tv5uR path.fill {
 	fill: rgb(var(--mainAccentColor)) !important;
-}
-.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
-	color: white !important;
 }
 .inviteRowButton-3opYo2,
 .selectOpen-hQuR6b {
@@ -520,6 +546,9 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 }
 .voiceUser-1K6Xox {
 	border-radius: 4px !important;
+}
+.videoControls-38i4kP .button-38aScr.lookBlank-3eh9lL {
+  background: transparent !important;
 }
 
 /* ---BUTTONS--- */
@@ -671,7 +700,8 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .botTagRegular-2HEhHi,
 .container-cMG81i,
 .scrollbarGhostHairline-1mSOM1,
-.botTag-ymWxY6 {
+.botTag-ymWxY6,
+.bot-2Fta1w {
 	box-shadow: inset 0px 0px 0px 2px rgba(var(--mainAccentColor)) !important;
 }
 .userPopout-3XzG_A,
@@ -781,7 +811,8 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .select-2fjwPw,
 .popout-VcNcHB,
 .group-1WdBVp,
-.button-1-5Aqk {
+.button-1-5Aqk,
+.invite-18yqGF {
   box-shadow: 0px 0px 4px 2px rgb(var(--mainAccentColor)) !important;
 }
 .footer-3mqk7D {
