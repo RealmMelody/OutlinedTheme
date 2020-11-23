@@ -433,7 +433,8 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
 .defaultValue-3gC7yw .markValue-2DwdXI,
 .selectedIcon-3uS11H,
 .selectorButtonSelected-t5V9On .selectorTextSelected-1ymya_,
-.selectorButton-EEUWed:hover .colorStandard-2KCXvj {
+.selectorButton-EEUWed:hover .colorStandard-2KCXvj,
+.item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
   color: rgb(var(--mainAccentColor)) !important;
 }
 .closeButton-1tv5uR path.fill {
