@@ -466,7 +466,8 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .gameName-1RiWHm,
 .lastPlayed-3bQ7Bo,
 .overlayStatusText-L2IACa,
-.subtext-13Lvrj {
+.subtext-13Lvrj,
+.activityName-1IaRLn {
   color: rgb(var(--mainAccentColor)) !important;
 }
 .repliedMessage-VokQwo,
