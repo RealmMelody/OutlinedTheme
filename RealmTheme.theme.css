@@ -1,5 +1,5 @@
 :root {
-	--version: "2020.11.24_252";
+	--version: "2020.11.24_256";
 }
 
 @font-face {
@@ -711,7 +711,6 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .jumpButton-2dvRSC:hover,
 .channelTextAreaUpload-3t7EIx {
   box-shadow: inset 0px 0px 4px 2px rgba(var(--mainAccentColor)) !important;
-	transition: box-shadow 0.3s;
 }
 .botTagRegular-2HEhHi,
 .container-cMG81i,
@@ -829,7 +828,6 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .button-1-5Aqk,
 .invite-18yqGF {
   box-shadow: 0px 0px 4px 2px rgb(var(--mainAccentColor)) !important;
-	transition: box-shadow 0.3s;
 }
 .footer-3mqk7D {
   border-radius: 10px !important;
