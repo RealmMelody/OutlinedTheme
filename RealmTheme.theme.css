@@ -1,5 +1,5 @@
 :root {
-	--version: "2020.11.24_148";
+	--version: "2020.11.24_159";
 }
 
 @font-face {
@@ -99,8 +99,9 @@ body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;w
   font-family: "Discord";
   font-size: 13px;
 }
-.checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
 path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5.375 21H18.625C19.936 21 21 19.936 21 18.625V5.375C21.0057 4.08803 19.9197 3 18.625 3ZM19 19V5H4.99999V19H19Z"] {
+	color: var(--interactive-normal) !important;
   d: path("M12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z") !important;
 }
 .colorDefault-2K3EoJ .check-1JyqgN {
@@ -445,8 +446,6 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .nameTag-3uD-yy .size12-3cLvbJ,
 .channelTextArea-rNsIhG .textArea-12jD-V span,
 .channelTextArea-rNsIhG .name-hpTFiv,
-.repliedMessage-VokQwo,
-.repliedMessage-VokQwo .repliedTextContent-1R3vnK,
 .fieldButton-27bJrp,
 .radioIconForeground-XwlXQN,
 .defaultValue-3gC7yw .markValue-2DwdXI,
@@ -469,6 +468,22 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .overlayStatusText-L2IACa,
 .subtext-13Lvrj {
   color: rgb(var(--mainAccentColor)) !important;
+}
+.repliedMessage-VokQwo,
+.repliedTextPreview-2NBljf,
+.repliedTextContent-1R3vnK {
+	color: rgb(var(--mainAccentColor), 0.8) !important;
+	opacity: 1 !important;
+}
+.repliedMessage-VokQwo:before {
+	border-color: rgb(var(--mainAccentColor), 0.6) !important;
+}
+.repliedMessage-VokQwo:hover:before {
+	border-color: rgb(var(--mainAccentColor), 0.8) !important;
+}
+.repliedMessage-VokQwo:hover .repliedTextContent-1R3vnK {
+	color: rgb(var(--mainAccentColor)) !important;
+	opacity: 1 !important;
 }
 .closeButton-1tv5uR path.fill {
 	fill: rgb(var(--mainAccentColor)) !important;
