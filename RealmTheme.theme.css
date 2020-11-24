@@ -351,8 +351,7 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .button-1-5Aqk,
 .upsellFooter-3coAfO,
 .bot-2Fta1w,
-.invite-18yqGF,
-.activity-1ythUs {
+.invite-18yqGF {
 	background-color: rgb(var(--mainBGColor)) !important;
 }
 .childWrapper-anI2G9 {
@@ -385,7 +384,8 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .header-QKLPzZ,
 .activityProfile-2bJRaP,
 .headerPlaying-j0WQBV,
-.headerSpotify-zpWxgT {
+.headerSpotify-zpWxgT,
+.activity-1ythUs {
   background-color: rgb(var(--mainAccentColor)) !important;
 }
 .unread-2lAfLh {
