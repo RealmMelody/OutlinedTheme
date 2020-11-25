@@ -352,7 +352,8 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .upsellFooter-3coAfO,
 .bot-2Fta1w,
 .invite-18yqGF,
-.focusedVideo-AeFhkm .flex-1xMQg5 {
+.focusedVideo-AeFhkm .flex-1xMQg5,
+.popoutWrapper-eJpzc1 .scroller-2TWLdF {
 	background-color: rgb(var(--mainBGColor)) !important;
 }
 .childWrapper-anI2G9 {
@@ -829,7 +830,8 @@ path[d="M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5
 .popout-VcNcHB,
 .group-1WdBVp,
 .button-1-5Aqk,
-.invite-18yqGF {
+.invite-18yqGF,
+.popoutWrapper-eJpzc1 .scroller-2TWLdF {
   box-shadow: 0px 0px 4px 2px rgb(var(--mainAccentColor)) !important;
 }
 .footer-3mqk7D {
