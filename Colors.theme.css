@@ -18,7 +18,7 @@
   display: none !important;
 }
 #app-mount .da-typeWindows::after {
-  content: "Colors v" var(--version) "" !important;
+  content: "Colors " var(--version) "" !important;
   color: rgb(var(--accentColor)) !important;
   position: absolute;
   left: 10px;
