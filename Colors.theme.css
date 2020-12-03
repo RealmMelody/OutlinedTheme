@@ -163,7 +163,9 @@
 .attachment-33OFj0,
 .bd-modal-inner > div,
 .container-2dqNWc,
-.topSectionNormal-2-vo2m {
+.topSectionNormal-2-vo2m,
+.messagesWrapper-1sRNjr,
+.chatContent-a9vAAp {
   background-color: rgb(var(--bg)) !important;
 }
 .colorDefault-2K3EoJ.focused-3afm-j,
@@ -768,11 +770,12 @@ body:after {
   box-shadow: 0 0 0 2px rgb(var(--accentColor));
 }
 .channelTextArea-rNsIhG {
-  transform: translateY(23px) !important;
+  transform: translateY(-1px) !important;
+  background-color: transparent !important;
 }
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-  background-color: rgb(var(--bg)) !important;
   border-radius: 0px !important;
+  background-color: transparent !important;
   transition: box-shadow .1s ease-out;
 }
 .channelTextArea-rNsIhG .container-2fRDfG {
@@ -795,7 +798,7 @@ body:after {
   position: absolute;
   left: 2px !important;
   width: fit-content !important;
-  top: 0px !important;
+  top: -25px !important;
   padding-right: 6px !important;
   padding-left: 4px !important;
 }
@@ -835,7 +838,7 @@ body:after {
   color: rgb(var(--accentColor)) !important;
 }
 .messagesWrapper-1sRNjr .scroller-2LSbBU {
-  margin-bottom: -20px !important;
+  margin-bottom: 10px !important;
 }
 .message-2qnXI6.selected-2P5D_Z {
   background-color: rgb(var(--bg)) !important;
@@ -875,6 +878,43 @@ body:after {
 .replying-1x3H0T:before,
 .mentioned-xhSam7:before {
   background-color: rgba(var(--accentColor), 0.2) !important;
+}
+.newMessagesBar-265mhP {
+  top: 8px !important;
+  border-radius: 8px;
+  box-shadow: 0 0 0 2px rgb(var(--accentColor));
+  background-color: rgb(var(--bg)) !important;
+}
+.jumpToPresentBar-G1R9s6 {
+  position: absolute;
+  bottom: 10px;
+  padding: 0;
+  left: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px rgb(var(--accentColor));
+  background-color: rgb(var(--bg)) !important;
+  min-width: 15px !important;
+  height: 24px !important;
+}
+.jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+  padding: 0 6px 0 6px !important;
+}
+.jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj svg {
+  margin: 0;
+  margin-bottom: -4px;
+}
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ {
+  display: none !important;
+}
+.newMessagesBar-265mhP > * {
+  color: var(--header-primary);
+}
+.form-2fGMdU div:nth-child(1) {
+  margin-bottom: 0;
+}
+.spinner-2enMB9 {
+  padding-right: 4px;
+  padding-left: 4px;
 }
 
 /* ---ANIMATIONS--- */
