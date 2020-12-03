@@ -451,6 +451,9 @@ body:after {
 	align-items: flex-end;
 	justify-content: flex-end;
 }
+.toasts {
+  display: none !important;
+}
 .bd-toast:before {
   content: var(--toast-content);
 	white-space:nowrap;
