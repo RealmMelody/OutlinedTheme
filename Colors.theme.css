@@ -344,7 +344,9 @@ div[aria-selected="true"] .navButton-2gQCx-,
   fill: white !important;
 }
 .member-3-YXUe.selected-aXhQR6 .activityText-yGKsKm,
-.member-3-YXUe.selected-aXhQR6 .roleColor-rz2vM0 {
+.member-3-YXUe.selected-aXhQR6 .roleColor-rz2vM0,
+.modeSelected-346R90 .name-23GUGE,
+.modeConnected-3IsKId .name-23GUGE {
   color: white !important;
   transition: color .3s ease .5s;
 }
@@ -353,8 +355,7 @@ div[aria-selected="true"] .navButton-2gQCx-,
 .customStatusText-3YJeRZ,
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF span,
-.selected-3s45Ha.role-3wi9Tf,
-.modeSelected-346R90 .name-23GUGE {
+.selected-3s45Ha.role-3wi9Tf {
   color: white !important;
 }
 .header-8ilj5e {
